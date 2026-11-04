@@ -22,7 +22,7 @@ _Figure: Architecture of the proposed SAPFSL._
 ## Directory Structure
 
 ```
-├── SAPFSL_IP.py          # training + evaluation script (Indian Pines)
+├── SAPFSL_IP.py          # training + evaluation script (Indian Pines, Houston)
 ├── utils.py              # datasets, samplers, data loading, augmentation
 ├── checkpoints/          # saved models (created automatically)
 ├── README.md
@@ -66,7 +66,7 @@ cd SAPFSL
 python SAPFSL_IP.py \
     --shot_num_per_class 1 \
     --test_lsample_num_per_class 5 \
-    --episode 5000 \
+    --episode 10000 \
     --learning_rate 0.001 \
     --n_dataset 10 \
     --data_dir ./datasets \
