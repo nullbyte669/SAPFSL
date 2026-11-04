@@ -22,7 +22,7 @@ _Figure: Architecture of the proposed SAPFSL._
 ## Directory Structure
 
 ```
-├── SAPFSL_IP.py          # training + evaluation script (Indian Pines, Houston)
+├── SAPFSL_IP.py          # training + evaluation script (Indian Pines)
 ├── utils.py              # datasets, samplers, data loading, augmentation
 ├── checkpoints/          # saved models (created automatically)
 ├── README.md
@@ -70,7 +70,7 @@ python SAPFSL_IP.py \
     --learning_rate 0.001 \
     --n_dataset 10 \
     --data_dir ./datasets \
-    --source_file Chikusei_imdb_128_9x9.pickle \
+    --source_file Chikusei.pickle \
     --target_data_file Indian_pines.mat \
     --target_label_file Indian_pines_gt.mat
 ```
