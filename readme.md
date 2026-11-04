@@ -58,7 +58,7 @@ Place the three files in one folder and pass their names with `--source_file`, `
 ## How to run
 
 ```
-git clone https://github.com/<your-username>/SAPFSL.git
+git clone https://github.com/nullbyte669/SAPFSL.git
 cd SAPFSL
 ```
 
@@ -71,7 +71,7 @@ python SAPFSL_IP.py \
     --n_dataset 10 \
     --data_dir ./datasets \
     --source_file Chikusei_imdb_128_9x9.pickle \
-    --target_data_file Indian_pines_corrected.mat \
+    --target_data_file Indian_pines.mat \
     --target_label_file Indian_pines_gt.mat
 ```
 
