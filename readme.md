@@ -75,17 +75,17 @@ python SAPFSL_IP.py \
     --target_label_file Indian_pines_gt.mat
 ```
 
+<!--
 ## Citation
 
 If you find this repository useful in your research, please kindly cite our work:
 
-```
 @article{xxx,
   author={...},
   title={...},
   journal={...},
   year={...}
 }
-```
+-->
 
 <!-- ## Acknowledgement -->
