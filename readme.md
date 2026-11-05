@@ -7,7 +7,7 @@ Domain Hyperspectral Image Classification** by Md. Al-Samir Shuvo, Tanvir Rahman
 
 ## Overview
 
-SAPFSL_PTL is a cross-domain few-shot learning framework for hyperspectral image (HSI) classification. The model is meta-trained on a source domain (**Chikusei**) together with a few labeled target samples, and evaluated on the target domain (**Indian Pines, Houston**) using only 1 to 5 labeled samples per class.
+SAPFSL is a cross-domain few-shot learning framework for hyperspectral image (HSI) classification. The model is meta-trained on a source domain (**Chikusei**) together with a few labeled target samples, and evaluated on the target domain (**Indian Pines, Houston**) using only 1 to 5 labeled samples per class.
 
 The framework consists of three main components:
 
